@@ -1,0 +1,118 @@
+.rectangle-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 174, 91, 0.8);
+  width: 1440px;
+  height: 400px;
+}
+.frame-child121 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #00ae5b;
+  box-shadow: 0 0 30px 20px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+}
+.frame-child122,
+.frame-child123 {
+  position: absolute;
+  top: calc(50% + 87.83px);
+  left: calc(50% - 43.5px);
+  border-radius: var(--br-81xl);
+  background-color: var(--color-white);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  width: 250px;
+  height: 30px;
+  transform: rotate(-51.07deg);
+  transform-origin: 0 0;
+}
+.frame-child123 {
+  top: calc(50% + 106.52px);
+  left: calc(50% - 20.24px);
+  width: 150px;
+  transform: rotate(-141.07deg);
+  z-index: 1;
+}
+.rectangle-parent25 {
+  position: absolute;
+  top: 143px;
+  left: 113px;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.3));
+  width: 273.8px;
+  height: 213.3px;
+  z-index: 1;
+}
+.ellipse-parent3 {
+  height: 500px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.frame-wrapper25 {
+  position: absolute;
+  top: 65px;
+  left: 470px;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  z-index: 1;
+}
+.rectangle-parent24 {
+  align-self: stretch;
+  height: 565px;
+  position: relative;
+  max-width: 100%;
+}
+.booked-successfull {
+  position: relative;
+  text-transform: uppercase;
+}
+.desktop-1,
+.status-message {
+  display: flex;
+  align-items: flex-start;
+}
+.status-message {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  font-family: var(--font-playfair-display-sc);
+}
+.desktop-1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-69xl);
+  box-sizing: border-box;
+  gap: 62px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .booked-successfull {
+    font-size: var(--font-size-32xl);
+  }
+  .desktop-1 {
+    gap: 31px 62px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .booked-successfull {
+    font-size: var(--font-size-19xl);
+  }
+  .desktop-1 {
+    gap: 15px 62px;
+  }
+}
